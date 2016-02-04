@@ -1,4 +1,7 @@
 <bin file="UW_mssm_dataCards.cpp" name="UW_mssm_dataCards"></bin>
+<bin file="HTT.cpp" name="HTT"></bin>
+<bin file="HTT2.cpp" name="HTT2"></bin>
+<bin file="HTT3.cpp" name="HTT3"></bin>
 <bin file="UW_ztt_em.cpp" name="UW_ztt_em"></bin>
 <bin file="UW_ztt_tt.cpp" name="UW_ztt_tt"></bin>
 <bin file="UW_htt_em.cpp" name="UW_htt_em"></bin>

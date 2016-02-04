@@ -348,7 +348,7 @@ bool HasNegativeBins(TH1 const* h) {
 void ZeroNegativeBins(TH1 *h) {
   for (int i = 1; i <= h->GetNbinsX(); ++i) {
     if (h->GetBinContent(i) < 0.) {
-      h->SetBinContent(i, 0.);
+      h->SetBinContent(i, 0.00000001);
     }
   }
 }
